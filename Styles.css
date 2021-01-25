@@ -1,0 +1,152 @@
+/* Navbar CSS */
+.navbar{
+  background-color:green;
+}
+.navbar-brand{
+  padding-top: 0;
+  font-family: Lato;
+}
+.nav-link{
+  color: white !important;
+  border-bottom: 3px solid transparent;
+}
+.nav-link:hover{
+  border-bottom: 3px solid #ECECA3;
+}
+.bin{
+  color: #ECECA3;
+}
+
+/*  */
+.container{
+  background: lightgreen;
+}
+.count-text{
+  padding-left: 70px;
+}
+.Tagline{
+  padding-left: 70px;
+}
+a:link {
+text-decoration: none;
+}
+a:hover {
+cursor:pointer;
+}
+
+.row{
+  margin: 15%;
+  padding-left: 50px;
+}
+
+.ratelist-group-name{
+  font: lato;
+  font-size: 2rem;
+  color: black;
+}
+.ratelist-group-line{
+  color: green;
+}
+
+.count-text{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+.text-color-light{
+  font-size: 1rem;
+}
+.text-color {
+    color: #444;
+}
+.pb-0 {
+  line-height: 200%;
+}
+.pt-5 {
+    padding-top: 3rem !important;
+}
+
+@media (min-width: 992px)
+.container, .container-sm, .container-md, .container-lg {
+    max-width: 960px;
+}
+@media (min-width: 768px)
+.container, .container-sm, .container-md {
+    max-width: 720px;
+}
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: 540px;
+}
+div {
+    display: block;
+}
+html, body {
+  background: lightgreen;
+    font-family:sans-serif;
+    font
+}
+
+/* Footer CSS */
+
+footer {
+  background : #303036;
+  color : #fff;
+  height : 350px;
+  font-family: montserrat;
+}
+footer .top {
+  height : 300px;
+  display : flex;
+}
+footer .top .footer-section  {
+  flex : 1;
+  padding : 60px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+footer .top .footer-section h4 {
+  margin-left:30px;
+}
+footer .top .footer-section hr {
+  width:50%;
+  background-color: white;
+}
+footer .top .footer-section ul li{
+  color: white;
+  list-style-type: none;
+}
+footer .top .footer-section ul a {
+  text-decoration: none;
+}
+footer .top .footer-section a:hover{
+  text-decoration: underline;
+  text-decoration-color: green;
+}
+footer .bottom {
+  padding-top:9px;
+  padding-left:400px;
+}
+footer .bottom .bottom-copyright {
+  float:left;
+}
+footer .bottom .bottom-social-media {
+  padding-right:150px;
+  float:right;
+}
+footer .bottom p {
+  font-size:10px;
+}
+footer .bottom .bottom-social-media .fa {
+  font-size: 12px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+  background-color: green;
+  color:white;
+}
+footer .bottom .bottom-social-media .fa .fa:hover {
+  opacity: 0.5;
+}
